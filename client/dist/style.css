@@ -1,0 +1,691 @@
+/* LOGIN PAGE */
+
+  body{
+    background-image: linear-gradient(to right , #d83291, #e8317c, #f13967, #f54851, #f45a3b, #f34f3d, #f24340, #f13543, #e50064, #c80086, #9400a6);;
+}
+ 
+#back{
+    position: absolute;
+    margin-top: -200px;
+    margin-left: -366px;
+    height: 497px;
+    border-radius: 40px;
+    opacity: 90%;
+}
+
+
+#ullogin{
+    list-style-type: none;
+    
+}
+
+#notamember{
+    position: absolute;
+    margin-top: 186px;
+    margin-left: -351px;
+    color: navajowhite;
+    font-size: 23px;
+}
+
+#paragraphlogin{
+    position: absolute;
+    width: 310px;
+    z-index: 1;
+    margin-left: -312px;
+    margin-top: -231px;
+    font-size: 25px;
+}
+#registerbutt{
+    border-radius: 40px;
+    background-color: transparent;
+    margin-left: 6px;
+    margin-top: -10px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    color: navajowhite;
+    border: outset navajowhite;
+    height: 43px;
+
+}
+#liloginname {
+    position: absolute;
+    margin-top: 20px;
+    margin: 20px;
+}
+
+#namelogin{
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 63px;
+    background-color: lightgray;
+    border-radius: 50px;
+    border-style: inset outset;
+    
+}
+
+#passwordlogin{
+    position: absolute;
+    margin-top: 6px;
+    /* margin: -87px; */
+    margin-left: 33px;
+    background-color: lightgray; 
+    border-radius: 50px;
+    border-style: inset outset;
+}
+
+#submit{
+    position: absolute;
+    margin-top: 61px;
+    margin-left: 69px;
+    background-color: transparent;
+    border: transparent;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+#loginherewriting{
+    margin-top: -135px;
+    margin-left: 144px;
+    position: absolute;
+    font-size: 30px;
+}
+#login{
+    
+    padding-top: 200px;
+    padding-bottom: 248px;
+    padding-left: 361px;
+    padding-right: 204px;
+    position: absolute;
+    margin-left: 714px;
+    margin-top: 200px;
+    background-color: rgba(171, 34, 34, 0.5);
+    border-radius: 30px 30px 30px 30px;
+}
+
+    
+    
+
+
+/*REGISTER PAGE*/
+
+
+#member{
+    position: absolute;
+    margin-top: 211px;
+    margin-left: -71px;
+    color: navajowhite;
+    font-size: 20px;
+}
+
+#loginregister{
+    border-radius: 40px;
+    background-color: transparent;
+    margin-left: 10px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    color: navajowhite;
+    border: outset navajowhite;
+    height: 43px;
+}
+
+
+#nameregister{
+    position: absolute;
+    margin-top: 22px;
+    margin: 0px;
+    margin-left: -309px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    border-style: inset outset;
+    
+    
+}
+
+#passwordregister{
+    position: absolute;
+    margin-top: 185px;
+    margin: 68px;
+    margin-left: -308px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    border-style: inset outset;
+   
+}
+
+#submitregister{
+    position: absolute;
+    margin-top: 119px;
+    margin-left: -325px;
+    background-color: transparent;
+    border: transparent;
+    font-size: 20px;
+    border-radius: 30px;
+    height: 25px;
+    width: 211px;
+}
+
+#loginhere{
+    margin-top: -184px;
+    margin-left: -38px;
+    position: absolute;
+    font-size: 25px;
+}
+#Register{
+    padding-top: 228px;
+    padding-bottom: 258px;
+    padding-left: 372px;
+    padding-right: 225px;
+    position: absolute;
+    margin-left: 714px;
+    margin-top: 200px;
+    background-color: rgba(171, 34, 34, 0.5);
+    border-radius: 30px 30px 30px 30px;
+    
+    
+    
+}
+#imgregister{
+    position: absolute;
+    height: 488px;
+    margin-top: -228px;
+    margin-left: -100px;
+    border-radius: 40px;
+    opacity: 80%;
+}
+#registerinfo{
+    margin-top: -157px;
+    position: absolute;
+    margin-left: -324px;
+    height: 25px;
+    width: 229px;
+    font-size: 25px;
+}
+
+/*HOME PAGE*/
+body{
+    background-color: lightgray;
+    width:100vw
+}
+body::-webkit-scrollbar{
+    display:none;
+}
+header {  
+    border: solid whitesmoke;
+    background-color: white;
+     
+    position: fixed;  
+    left: 0;  
+    right: 0;  
+    top: 0;  
+    height: 70px;  
+    display: flex;  
+    align-items: center;  
+    z-index: 4;
+    
+     
+    }  
+    header * {  
+    display: inline; 
+    margin-left: 90px; 
+    
+   
+    }  
+    header li {
+    margin-top: 0px;  
+    margin-left: 20px;  
+    
+    }  
+    header li a {  
+      
+       font-size: 18px;
+    color: black;  
+    text-decoration: none;
+      
+    }  
+    
+    .sidebars{
+        display: inline-block;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        
+    }
+    #lefthome{
+        background-color: white;
+        max-height: 300px;
+        position: absolute;
+        margin-left: -7px;
+        margin-top: 105px;
+        padding-top: 1500px;
+        padding-left:271px;
+        border: solid whitesmoke;
+        border-radius: 0px 20px 20px 0px;
+        opacity: 70%;
+        
+        ;
+       
+
+    }
+    #righthome{
+        background-color: white;
+        max-height: 300px;
+        position: absolute;
+        margin-left : 1850px;
+        margin-right: 0px;
+        margin-top: 105px;
+        padding-top: 1500px;
+        padding-right: 271px;
+        border: solid whitesmoke;
+        border-radius: 20px 0px 0px 20px;
+        opacity: 70%;
+       
+    }
+     /* #leftprofile{
+        background-color: white;
+        max-height: 300px;
+        position: absolute;
+        margin-left: 2144px; 
+        margin-top: 105px;
+        padding-top: 1500px;
+        padding-left: 271px;
+        border: solid whitesmoke;
+        border-radius: 0px 20px 20px 0px;
+       
+
+    }  */
+    #paragraph{
+        position: absolute;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: black;
+    }
+     #rightprofile{
+        background-color: transparent;
+        max-height: 300px;
+        position: absolute;
+        margin-left: 4000px;
+        margin-right: 0px;
+        margin-top: 110px;
+        padding-top: 1500px;
+        padding-right: 271px;
+        border: solid transparent;
+        border-radius: 20px 0px 0px 20px;
+
+        
+       
+    }
+    .stories{
+        position: absolute;
+        display: grid ,inline;
+        margin-left: 344px;
+    margin-top: 136px;
+        display : inline-flex;
+       
+    }
+    #imagesstories{
+       
+        display:inline-flex ;
+        height: 188px;
+        margin-top: 29px;
+          
+    }
+  
+    #first{
+        padding-right: 7px;
+    border-radius: 50px;
+    margin-left: -144px;
+        
+    }
+    #second{
+        padding-right: -2px;
+        border-radius: 50px;
+    }
+    #third{
+        padding-left: 5px;
+        border-radius: 50px;
+    }
+    #forth{
+        padding-left: 5px;
+        border-radius: 50px;
+    }
+#fifth{
+    padding-left: 5px;
+    padding-right:5px;
+        border-radius: 50px;
+}
+#containerpost{
+    position: absolute;
+    margin-top: 293px;
+    margin-left: 288px;
+    padding-left: 916px;
+    padding-top: 170px;
+    background-color: white;
+    border-radius: 20px;
+    opacity: 70%;
+}
+#containerpost:hover{
+    opacity:100%;
+    animation-delay: 2s;   
+}
+#post{
+    background-color: transparent;
+    position: absolute;
+    margin-top: 297px;
+    margin-left: 414px;
+    height: 100px;
+    width: 600px;
+    border: transparent;
+    font-size: 15px;
+    border-bottom: solid rgba(0, 0, 0, 0.5);
+
+    
+   
+}
+
+
+
+#share{
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 1046px;
+    border: transparent;
+    background-color: transparent;
+    
+    font-size: 20px;
+}
+#postimg{
+    border-radius: 250px;
+    height: 66px;
+    position: absolute;
+    margin-top: 325px;
+    margin-left: 296px;
+    z-index: 1;
+} 
+ .allposts{
+    
+    display: grid;
+    padding-left: 316px;
+    padding-top: 107px;
+    background-color: white;
+    border-radius: 20px;
+    opacity: 70%;
+    list-style-type: none;
+    margin-left: 85px;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 258px 255px 203px;
+    grid-column-gap: 70px;
+    margin-top: 585px;
+    margin-left: 318px;
+    padding-left: 211px;
+    /* padding-right: 696px; */
+    background-color: transparent;
+}
+#name{
+    position: absolute;
+    margin-top: -98px;
+    margin-left: -237px;
+    font-size: 25px;
+    word-spacing: 2px;
+}
+
+#description{
+    position: absolute;
+    margin-top: -43px;
+    margin-left: -235px;
+    font-size: 10px;
+}
+
+#icons{
+    position: absolute;
+    margin-top : -850px
+    
+}
+input{border-color: transparent;}
+
+
+
+/*PROFILE PAGE*/
+#mypostname{
+    margin-left: -578px;
+}
+#mypostdescription{
+    margin-left: -459px;
+    margin-top: -23px;
+}
+
+ #myposts{
+    position: absolute;
+    margin-top: 212px;
+    margin-left: 3056px;
+    padding-left: 858px;
+    padding-top: 167px;
+    background-color: white;
+    border-radius: 20px;
+}
+.myallposts{    display: grid;
+    height: 200px;
+    padding-left: 815px;
+    background-color: white;
+    border-radius: 31px;
+    opacity: 0.7;
+    list-style-type: none;
+    margin-left: 2192px;}
+a{    margin-left: -129px;
+    font-size: 25px;}
+#profilepic{
+    position: absolute;
+    margin-top: -789px;
+    margin-left: 3041px;
+    border-radius: 50%;
+}
+#griduser{
+    display: grid;
+    margin-top: 196px;
+    margin-left: 866px;
+    padding-right: 546px;
+    background-color: transparent;
+}
+#username{
+    position: absolute;
+    margin-top: -130px;
+    margin-left: -686px;
+
+}
+#userdescription{
+    position: absolute;
+    margin-top: -72px;
+    margin-left: -559px;
+}
+#editpic{
+    position: absolute;
+    margin-left: 3186px;
+    margin-top: -630px;
+    z-index: 1;
+    background-color: transparent;
+    width: -18px;
+    border: transparent;
+    padding-left: 2;
+    font-size: 40px;
+}
+#editinfo{
+    position: absolute;
+    margin-top: -455px;
+    background: white;
+    margin-left: 3063px;
+    border: solid white;
+    border-radius: 20px;
+    padding: 45px;
+    font-size: 25px;
+    z-index: 1;
+
+}
+
+#disconnect{
+    border: solid white;
+    position: absolute;
+    background-color: white;
+    border-radius: 20px;
+    height: 115px;
+    text-align: center;
+    margin-left: 689px;
+    margin-top: -494px;
+    padding: 25px;
+    height: 214px;
+    font-size: 25px;
+
+}
+
+
+
+#mybio{
+    position: absolute;
+    margin-top: -454px;
+    margin-left: 2482px;
+    padding-left: 553px;
+    padding-top: 491px;
+    background-color: white;
+    border-radius: 20px;
+
+} 
+ #userphotos{
+    position: absolute;
+    margin-top: 29px;
+    margin-left: -556px;
+    padding-left: 553px;
+    padding-top: 475px;
+    background-color: white;
+    border-radius: 20px;
+}
+#infolist{
+    position: absolute;
+    margin-top: -505px;
+    margin-left: -546px;
+    list-style-type: disc;
+}
+
+#number{
+margin-top: 10px;
+
+}
+li{
+    margin : 50px
+}
+#coverphoto{
+    position: absolute;
+    margin-top: -1026px;
+    margin-left: 2710px;
+    width: 1011px;
+    border-radius: 10px;
+    height: 377px;
+
+}
+#darkmode{
+    background-color: transparent;
+    border-color: transparent;
+}
+#lightmode{
+    background-color: transparent;
+    border-color: transparent;
+}
+#containerpostuser{
+    position: absolute;
+    margin-top: -224px;
+    margin-left: 3060px;
+    padding-left: 851px;
+    padding-top: 170px;
+    background-color: white;
+    border-radius: 20px;
+    opacity: 0.7;
+
+}
+
+#postuser{
+    background-color: transparent;
+    position: absolute;
+    margin-top: -215px;
+    margin-left: 3181px;
+    height: 100px;
+    width: 600px;
+    border: transparent;
+    font-size: 15px;
+    border-bottom: solid rgba(0, 0, 0, 0.5);
+   
+}
+
+
+#shareuser{
+    position: absolute;
+    margin-top: -93px;
+    margin-left: 3808px;
+    border: transparent;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+#postimguser{
+    border-radius: 250px;
+    height: 66px;
+    position: absolute;
+    margin-top: -169px;
+    margin-left: 3066px;
+    z-index: 1;
+}
+#photoo{
+    position: absolute;
+    z-index: 1;
+    margin-left: 2504px;
+    margin-top: -1736px;
+    display: inline-flex;
+    list-style: none;
+    border-radius: 30px;
+}
+#one{
+    height: 124px;
+    width: 146px;
+    position: absolute;
+    margin-left: -93px;
+    margin-top: -275px;
+    border-radius: 20px;
+
+}
+#two{
+    height: 124px;
+    width: 146px;
+    position: absolute;
+    margin-left: -33px;
+    margin-top: -275px;
+    border-radius: 20px;
+}
+#three{
+    height: 124px;
+    width: 146px;
+    position: absolute;
+    margin-left: -292px;
+    margin-top: -113px;
+    border-radius: 20px;
+}
+#four{
+    height: 124px;
+    width: 146px;
+    position: absolute;
+    margin-left: -69px;
+    margin-top: -275px;
+    border-radius: 20px;
+}
+
+#icondiscon{
+    height: 86px;
+    width: -25px;
+} 
+#delete{
+    color: black;
+    background-color: transparent;
+    padding-left: -264px;
+    margin-left: -244px;
+    border-bottom: transparent;
+    border-left: transparent;
+    border-right: transparent;
+
+
+}
+video{
+    border-radius: 20px;
+}
